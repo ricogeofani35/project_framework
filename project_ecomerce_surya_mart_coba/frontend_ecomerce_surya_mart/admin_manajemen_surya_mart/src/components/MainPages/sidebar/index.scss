@@ -1,0 +1,77 @@
+.sidebar {
+    width: 18%;
+    height: 92vh;
+    border-right: 1px solid #4a4a4a;
+    background-color: orange;
+    .menu {
+        .admin {
+            background-image: url('../../../assets/image/image_ecomerce.jpg');
+            background-position: center;
+            background-repeat: no-repeat;
+            max-width: 100%;
+            background-size: cover;
+            height: 15vh;
+            padding: 10px;
+            .logo {
+                width: 60px;
+                height: 60px;
+                border-radius: 50%;
+                font-size: 4rem;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-color: #fff;
+                padding: none;
+            }
+            p {
+                text-align: left;
+                font-size: 1.2rem;
+                text-transform: none;
+                font-family: sans-serif;
+                font-weight: 700;
+                color: #fff;
+            }
+        }
+        p {
+           padding: 10px 0;
+           text-align: center;
+           font-size: 1.6rem;
+           font-weight: 300;
+           text-transform: uppercase;
+           color: #000;
+        }
+        .list-menu {
+            padding: 10px 20px;
+            background-color: #fff;
+            height: 50vh;
+            li {
+                padding: 10px 0;
+                margin-top: 25px;
+                font-size: 1.2rem;
+                font-family: sans-serif;
+                font-weight: 700;
+                color: #000;
+                transition: .7s;
+                display: flex;
+                align-items: center;
+                gap: 20px;
+                text-decoration: none;
+                &:hover {
+                    background-color: #4a4a4a;
+                    padding: 10px 10px;
+                    cursor: pointer;
+                }
+                a {
+                    color: #000;
+                    text-decoration: none;
+                    display: flex;
+                    gap: 10px;
+                    &:hover {
+                        color: #fff;
+                    }
+                }
+            }
+            
+        }
+    }
+}

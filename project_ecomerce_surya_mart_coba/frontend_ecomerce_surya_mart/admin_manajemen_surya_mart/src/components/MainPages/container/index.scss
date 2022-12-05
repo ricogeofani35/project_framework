@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #ccc;
+}
+.container {
+    border: 1px solid #000;
+    max-height: 100vh;
+    position: relative;
+    transition: .6s;
+    .container-bottom {
+        display: flex;
+        max-width: 100%;
+    }
+}
+
+
